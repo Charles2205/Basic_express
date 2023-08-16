@@ -7,24 +7,24 @@ const home =(req,res)=>{
 }
 
 const aboutUs =(req,res)=>{
-    res.send('Hello About')
+    res.render('pages/about')
 
 }
 
-const services =(req,res)=>{
-    res.send('Hello About')
+const post =(req,res)=>{
+    res.render('pages/post')
 
 }
 
 const contact =(req,res)=>{
-    res.send('Hello Contact')
+    res.render('pages/contact')
 
 }
 
 module.exports={
     home,
     aboutUs,
-    services,
+    post,
     contact,
     
 
