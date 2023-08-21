@@ -1,5 +1,4 @@
-const fs = require('fs')
-const userUrl = require('url')
+
 
 
 const home =(req,res)=>{
